@@ -1,0 +1,32 @@
+/* External CSS */
+body {
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-content {
+    margin: 20px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+#contact{
+    margin-bottom: 10px;
+}
+
+h1, h2, h3 {
+    color: #333;
+}
+
+ul {
+    list-style-type: square;
+    margin-left: 20px;
+}
+
+ul li {
+    padding: 5px;
+    font-size: 16px;
+}

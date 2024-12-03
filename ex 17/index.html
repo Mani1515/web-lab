@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hospital Management System</title>
+    <link rel="stylesheet" href="styles.css"> <!-- External CSS Link -->
+    <style>
+        /* Embedded CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            box-sizing: border-box;
+        }
+        .header {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #34495E;
+            overflow: hidden;
+        }
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 100px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+        table {
+            width: 100%;
+            margin: 20px 10px;
+        }
+        th, td {
+            padding: 12px;
+            border: 5px solid #ddd;
+            text-align: left;
+        }
+        th {
+            background-color: #2C3E50;
+            color: white;
+        }
+        .footer {
+            background-color: #2C3E50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+        h2{
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="header">
+        <h1>Hospital Management System</h1>
+        <p>Providing top-notch healthcare services</p>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="#patients">Patients</a>
+        <a href="#doctors">Doctors</a>
+        <a href="#staff">Staff</a>
+        <a href="#appointments">Appointments</a>
+        <a href="#treatments">Treatments</a>
+    </nav>
+
+    <!-- Patients Table -->
+    <div id="patients">
+        <h2>Patients</h2>
+        <table>
+            <tr>
+                <th>Patient ID</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Gender</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>001</td>
+                <td>John Doe</td>
+                <td>45</td>
+                <td>Male</td>
+                <td>555-1234</td>
+            </tr>
+            <tr>
+                <td>002</td>
+                <td>Jane Smith</td>
+                <td>30</td>
+                <td>Female</td>
+                <td>555-5678</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Doctors Table -->
+    <div id="doctors">
+        <h2>Doctors</h2>
+        <table>
+            <tr>
+                <th>Doctor ID</th>
+                <th>Name</th>
+                <th>Specialization</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>101</td>
+                <td>Dr. Smith</td>
+                <td>Cardiologist</td>
+                <td>555-7890</td>
+            </tr>
+            <tr>
+                <td>102</td>
+                <td>Dr. Johnson</td>
+                <td>Neurologist</td>
+                <td>555-2345</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Staff Table -->
+    <div id="staff">
+        <h2>Staff</h2>
+        <table>
+            <tr>
+                <th>Staff ID</th>
+                <th>Name</th>
+                <th>Role</th>
+                <th>Contact</th>
+            </tr>
+            <tr>
+                <td>201</td>
+                <td>Alice Williams</td>
+                <td>Nurse</td>
+                <td>555-6789</td>
+            </tr>
+            <tr>
+                <td>202</td>
+                <td>Bob Brown</td>
+                <td>Janitor</td>
+                <td>555-3456</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Appointments Table -->
+    <div id="appointments">
+        <h2>Appointments</h2>
+        <table>
+            <tr>
+                <th>Appointment ID</th>
+                <th>Patient ID</th>
+                <th>Doctor ID</th>
+                <th>Date</th>
+                <th>Time</th>
+            </tr>
+            <tr>
+                <td>A101</td>
+                <td>001</td>
+                <td>101</td>
+                <td>2024-12-05</td>
+                <td>10:00 AM</td>
+            </tr>
+            <tr>
+                <td>A102</td>
+                <td>002</td>
+                <td>102</td>
+                <td>2024-12-06</td>
+                <td>02:00 PM</td>
+            </tr>
+        </table>
+    </div>
+
+    <!-- Treatments Table -->
+    <div id="treatments">
+        <h2>Treatments</h2>
+        <table>
+            <tr>
+                <th>Treatment ID</th>
+                <th>Patient ID</th>
+                <th>Doctor ID</th>
+                <th>Diagnosis</th>
+                <th>Treatment</th>
+            </tr>
+            <tr>
+                <td>T101</td>
+                <td>001</td>
+                <td>101</td>
+                <td>Heart Disease</td>
+                <td>Medication</td>
+            </tr>
+            <tr>
+                <td>T102</td>
+                <td>002</td>
+                <td>102</td>
+                <td>Neurological Disorder</td>
+                <td>Therapy</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="footer">
+        <p>&copy; 2024 Hospital Management System. All rights reserved.</p>
+    </div>
+
+</body>
+</html>

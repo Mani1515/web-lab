@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Users>
+    <User>
+        <UserID>U001</UserID>
+        <Name>Alice Johnson</Name>
+        <Age>25</Age>
+        <Email>alice@example.com</Email>
+    </User>
+    <User>
+        <UserID>U002</UserID>
+        <Name>Bob Smith</Name>
+        <Age>30</Age>
+        <Email>bob@example.com</Email>
+    </User>
+    <User>
+        <UserID>U003</UserID>
+        <Name>Charlie Brown</Name>
+        <Age>28</Age>
+        <Email>charlie@example.com</Email>
+    </User>
+    <User>
+        <UserID>U004</UserID>
+        <Name>Diana Prince</Name>
+        <Age>32</Age>
+        <Email>diana@example.com</Email>
+    </User>
+    <User>
+        <UserID>U005</UserID>
+        <Name>Ethan Hunt</Name>
+        <Age>35</Age>
+        <Email>ethan@example.com</Email>
+    </User>
+</Users>
