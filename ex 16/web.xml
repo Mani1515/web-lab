@@ -1,0 +1,28 @@
+<web-app>
+    <servlet>
+        <servlet-name>UserFormServlet</servlet-name>
+        <servlet-class>UserFormServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserFormServlet</servlet-name>
+        <url-pattern>/UserFormServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>InsuranceServlet</servlet-name>
+        <servlet-class>InsuranceServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>InsuranceServlet</servlet-name>
+        <url-pattern>/InsuranceServlet</url-pattern>
+    </servlet-mapping>
+
+    <servlet>
+        <servlet-name>SummaryServlet</servlet-name>
+        <servlet-class>SummaryServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>SummaryServlet</servlet-name>
+        <url-pattern>/SummaryServlet</url-pattern>
+    </servlet-mapping>
+</web-app>
